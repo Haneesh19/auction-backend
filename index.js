@@ -23,7 +23,7 @@ newAppInstance.use(
 
 newAppInstance.use(
   cors({
-    origin: ["http://localhost:3000", process.env.FRONTEND_URL], // Allow requests from specified origins
+    origin: "http://localhost:3000", process.env.FRONTEND_URL, // Allow requests from specified origins
     credentials: true, // Enable credentials (cookies, HTTP authentication) in CORS requests
   })
 );
