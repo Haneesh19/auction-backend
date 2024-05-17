@@ -38,7 +38,7 @@ const { create__DefaultAdmin } = require("./main_controller/user__Controller");
 const { AutoSellAfterDays } = require("./main_controller/post__Controller");
 
 // Declare the port number
-const NEW_PORT = process.env.PORT || 10000;
+const NEW_PORT = process.env.PORT || 5000;
 
 // Connect to the MongoDB database
 mongooseInstance
